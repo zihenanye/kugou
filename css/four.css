@@ -1,0 +1,26 @@
+.section {
+  flex: 1;
+  overflow-y: scroll; }
+  .section .China, .section .America, .section .Japan {
+    margin: 15px 4%;
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+    background: #FBFBFB; }
+    .section .China ul li, .section .America ul li, .section .Japan ul li {
+      height: 38px;
+      line-height: 38px;
+      font-size: 0.14rem;
+      color: #333333;
+      padding: 0 10px;
+      box-sizing: border-box;
+      position: relative; }
+      .section .China ul li:nth-child(1), .section .China ul li:nth-child(2), .section .America ul li:nth-child(1), .section .America ul li:nth-child(2), .section .Japan ul li:nth-child(1), .section .Japan ul li:nth-child(2) {
+        border-bottom: 1px solid #E4E4E4; }
+      .section .China ul li .fa, .section .America ul li .fa, .section .Japan ul li .fa {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 18px;
+        color: #E4E4E4; }
+
+/*# sourceMappingURL=four.css.map */

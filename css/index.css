@@ -1,0 +1,36 @@
+.banner {
+  box-sizing: border-box;
+  width: 100%;
+  position: relative; }
+  .banner .swiper-wrapper {
+    width: 100%;
+    display: -webkit-flex; }
+    .banner .swiper-wrapper .swiper-slide {
+      width: 100%; }
+      .banner .swiper-wrapper .swiper-slide img {
+        width: 100%; }
+  .banner .swiper-pagination .swiper-pagination-bullet-active {
+    background: #FFFFFF; }
+
+.section {
+  flex: 1;
+  overflow-y: scroll; }
+  .section .list {
+    padding-left: 4%;
+    box-sizing: border-box; }
+    .section .list ul {
+      width: 100%; }
+      .section .list ul li {
+        height: 40px;
+        line-height: 40px;
+        font-size: 0.15rem;
+        color: #333333;
+        position: relative;
+        border-bottom: 1px solid #E5E5E5; }
+      .section .list ul span:nth-child(3) {
+        position: absolute;
+        right: 0; }
+        .section .list ul span:nth-child(3) img {
+          width: 50%; }
+
+/*# sourceMappingURL=index.css.map */
